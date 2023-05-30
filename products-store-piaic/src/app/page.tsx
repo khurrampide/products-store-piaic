@@ -3,6 +3,8 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Promotions from './components/Promotions'
 import { createClient } from 'contentful'
+import ProductsHome from './components/ProductsHome'
+import HomeSeeAllProducts from './components/HomeSeeAllProducts'
 
 
 export default function Home() {
@@ -12,6 +14,8 @@ export default function Home() {
     
       <Hero/>
       <Promotions/>
+      <ProductsHome/>
+      <HomeSeeAllProducts/>
 
     </>
   )
