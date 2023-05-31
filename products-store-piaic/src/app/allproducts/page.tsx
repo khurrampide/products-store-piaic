@@ -10,7 +10,6 @@ const AllProducts = () => {
   return (
     <section>
       <Wrapper>
-
         {/* ALL PRODUCTS CONTAINER - START */}
         <div className='grid grid-cols-4 gap-y-16'>
           <ProductCard/>
