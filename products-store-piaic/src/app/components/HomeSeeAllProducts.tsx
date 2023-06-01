@@ -19,7 +19,7 @@ const HomeSeeAllProducts = () => {
       {/* HEADING - END */}
 
       {/* MAIN CONTENT - START */}
-      <div className="bg-gray-100">
+      <div className="bg-gray-100 pb-16">
         <Wrapper>
           <div className="grid grid-cols-2">
             {/* LEFT SIDE - START */}
