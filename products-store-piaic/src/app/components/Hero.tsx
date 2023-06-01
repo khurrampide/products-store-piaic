@@ -44,8 +44,8 @@ const Hero = () => {
 
         {/* Hero Right Column Start */}
         <div className='bg-[#FFECE3] rounded-full'>
-        {/* <Image src="/hero-sec-picture.webp" alt="Bazaar" width={650} height={650} /> */}
-        <Image className='-mt-[30px] -mr-[69px]' src="/hero-sec-picture.png" alt="Bazaar" width={700} height={700} />
+        <Image src="/hero-sec-picture.webp" alt="Bazaar" width={650} height={650} />
+        {/* <Image className='-mt-[30px] -mr-[69px]' src="/hero-sec-picture.png" alt="Bazaar" width={700} height={700} /> */}
           </div>
         {/* Hero Right Column END*/}
     </div>
