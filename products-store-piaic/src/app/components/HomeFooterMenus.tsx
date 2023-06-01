@@ -9,7 +9,7 @@ const HomeFooterMenus = () => {
     <section>
       {/* FOOTER MENU START */}
       <Wrapper>
-        <div className="grid grid-cols-4">
+        <div className="grid grid-cols-4 pb-16">
           {/* FIRST COLUMN */}
           <div className="flex flex-col justify-between w-[80%]">
             <Link href="/">
@@ -111,7 +111,17 @@ const HomeFooterMenus = () => {
       {/* FOOTER MENU END */}
 
       {/* COPYRIGHT SECTION START */}
-      <div></div>
+
+      <div className="  mt-[2rem] border border-t-2">
+        <Wrapper>
+          <div className="grid grid-cols-3 ">
+          <p className="my-6 font-normal text-base leading-[22px] text-[#666]">Copyright © 2022 Dine Market</p>
+          <p className="my-6 font-normal  text-base leading-[22px] text-[#666]">Design by. <span className="font-bold leading-[15px] text-[#212121]">Weird Design Studio</span></p>
+          <p className="my-6 font-normal text-base leading-[22px] text-[#666]">Code by. <span className="font-bold leading-[15px] text-[#212121]">shabrina12 on github</span></p>
+
+          </div>
+        </Wrapper>
+      </div>
       {/* COPYRIGHT SECTION END */}
     </section>
   );

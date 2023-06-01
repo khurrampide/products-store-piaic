@@ -6,7 +6,7 @@ const HomeSubscribe = () => {
     <section>
         <Wrapper>
             <div className='flex flex-col justify-center items-center py-40 relative '>
-            <div className="absolute font-extrabold text-[7.5rem] leading-[151px] text-gray-200 z-0">Newsletter</div>
+            <div className="absolute font-extrabold text-[7.5rem] leading-[151px] text-gray-100 z-0">Newsletter</div>
                 <h1 className='mb-4 font-bold text-[32px] leading-10 tracking-[.03em] text-[#212121]z-10'>Subscribe Our Newsletter</h1>
                 <p className='mb-8 font-light text-base leading-[26px] text-[#212121] z-10'>Get the latest information and promo offers directly</p>
                 <form className='z-10'>
