@@ -1,6 +1,7 @@
 import React from 'react'
 import Wrapper from './Wrapper'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const ProductsHome = () => {
   return (
@@ -20,21 +21,27 @@ const ProductsHome = () => {
 
         {/* PRODUCT 3 CARDS - START*/}
         <div className='flex justify-between'>
+            <Link className='transition-transform hover:scale-110 duration-700' href="/">
             <div>
                 <Image src="/home-product1.png" alt="Product" width={380} height={400} />
                 <p className="text-[18px] tracking-[.03em] text-[#212121] font-semibold mt-2 leading-6">Flex Sweatpants</p>
                 <p className="text-[19px] tracking-[.03em] text-[#212121] font-semibold mt-2 leading-6">$175</p>
             </div>
+            </Link>
+            <Link className='transition-transform hover:scale-110 duration-700' href="/">
             <div>
                 <Image src="/home-product2.png" alt="Product" width={380} height={400} />
                 <p className="text-[18px] tracking-[.03em] text-[#212121] font-semibold mt-2 leading-6">Flex Sweatpants</p>
                 <p className="text-[19px] tracking-[.03em] text-[#212121] font-semibold mt-2 leading-6">$175</p>
             </div>
+            </Link>
+            <Link className='transition-transform hover:scale-110 duration-700' href="/">
             <div>
                 <Image src="/home-product3.png" alt="Product" width={380} height={400} />
                 <p className="text-[18px] tracking-[.03em] text-[#212121] font-semibold mt-2 leading-6">Flex Sweatpants</p>
                 <p className="text-[19px] tracking-[.03em] text-[#212121] font-semibold mt-2 leading-6">$175</p>
             </div>
+            </Link>
         </div>
 
         {/* PRODUCT 3 CARDS - START*/}

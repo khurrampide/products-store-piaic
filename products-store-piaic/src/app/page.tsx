@@ -5,6 +5,8 @@ import Promotions from './components/Promotions'
 import { createClient } from 'contentful'
 import ProductsHome from './components/ProductsHome'
 import HomeSeeAllProducts from './components/HomeSeeAllProducts'
+import HomeSubscribe from './components/HomeSubscribe'
+import HomeFooterMenus from './components/HomeFooterMenus'
 
 
 export default function Home() {
@@ -16,6 +18,8 @@ export default function Home() {
       <Promotions/>
       <ProductsHome/>
       <HomeSeeAllProducts/>
+      <HomeSubscribe/>
+      <HomeFooterMenus/>
 
     </>
   )
